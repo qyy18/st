@@ -5,7 +5,7 @@ from urllib3 import encode_multipart_formdata
 st.set_page_config(page_title="Streamlit APP", layout="wide")
 bugs = ['请选择：', '文件上传']
 st.sidebar.subheader("Test")
-server_url = st.sidebar.text_input(label='服务器地址', value="http://192.168.0.106:8080/")
+server_url = st.sidebar.text_input(label='服务器地址', value="http://sr4uda.natappfree.cc")
 case = st.sidebar.selectbox("选择工具", bugs)
 
 
